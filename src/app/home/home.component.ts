@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FoodItem } from '././foodItem';
+import { FoodItem } from '../foodItem';
+
 
 
 @Component({
