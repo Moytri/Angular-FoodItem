@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FoodItem } from '././foodItem';
 
 
 @Component({
@@ -6,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent  {
+	someFoodItems: FoodItem[];
+
+
+	constructor() {
+		if(sessionStorage.getItem("food")) {
+			this.someFoodItems = JSON.parse(sessionStorage.getItem("food"));
+
+    		console.log(this.someFoodItems);
+		}
+	}
+
 
 }
