@@ -1,4 +1,6 @@
 
 <p *ngFor="let foodItem of someFoodItems">
-	{{foodItem.id}} &nbsp;&nbsp;&nbsp;  {{foodItem.name}}
+	 <a routerLink="/detail/{{foodItem.id}}" routerLinkActive="active">{{foodItem.id}}</a>
+	  &nbsp;&nbsp;&nbsp;  {{foodItem.name}}
 </p> 
+
