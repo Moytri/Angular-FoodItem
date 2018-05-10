@@ -10,9 +10,10 @@ import { FoodItem } from './foodItem';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FoodItem';
 
+  title = 'FoodItem';
   myFoodItems: FoodItem[];
+
   FOODITEMS: FoodItem[] = [
     { id: 1, name: "Cucumbers", mfg: "Hot House", pkg: "10 KG", qty: 6 },
     { id: 2, name: "Carrots", mfg: "Hot House", pkg: "8 KG", qty: 14 },
