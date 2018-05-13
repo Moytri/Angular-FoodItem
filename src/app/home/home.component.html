@@ -1,6 +1,11 @@
-
-<p *ngFor="let foodItem of someFoodItems">
-	 <a routerLink="/detail/{{foodItem.id}}" routerLinkActive="active">{{foodItem.id}}</a>
-	  &nbsp;&nbsp;&nbsp;  {{foodItem.name}}
-</p> 
+<div class="home-container">
+	<h4>Food Item</h4>
+	<h6>Select item ID for details</h6>
+	<ul class="list-group">
+ 		<li class="list-group-item" *ngFor="let foodItem of someFoodItems">
+ 			<a routerLink="/detail/{{foodItem.id}}" routerLinkActive="active">{{foodItem.id}}</a>
+		  	&nbsp;&nbsp;&nbsp;  {{foodItem.name}}
+ 		</li>
+	</ul> 
+</div>
 
