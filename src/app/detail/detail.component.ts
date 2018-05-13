@@ -22,12 +22,13 @@ export class DetailComponent implements OnInit {
       	this.route.params.forEach((params: Params) => {
         let localID = params['id'];
         this.id = localID;
-		let localDeatils = getDetails(this.id);
-		this.details = localDeatils;
+
+		let localDeatils = this.getDetails(this.id);
+    	this.details = localDeatils;
     });
   }
 
-  	function getDetails(id: number) { 
+  	getDetails(id: number) { 
 
   		var someFoodItems;
 
