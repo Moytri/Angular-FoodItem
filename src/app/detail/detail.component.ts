@@ -23,9 +23,9 @@ export class DetailComponent implements OnInit {
         let localID = params['id'];
         this.id = localID;
 
-		let localDeatils = this.getDetails(this.id);
-    	this.details = localDeatils;
-    });
+    		let localDeatils = this.getDetails(this.id);
+        	this.details = localDeatils;
+        });
   }
 
   	getDetails(id: number) { 
