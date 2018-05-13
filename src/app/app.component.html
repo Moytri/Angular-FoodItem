@@ -1,15 +1,33 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<h1>Welcome To {{title}} App</h1>
-
 <div class="container">
-  <div>
-    <nav>
-      <a routerLink="/" routerLinkActive="active">Home</a> |
-      <a routerLink="/about" routerLinkActive="active">About</a>
-    </nav>
-    <router-outlet></router-outlet>
-  </div>
+    <div class="panel panel-default panel-height">
+    	<div class="panel-heading nav navbar-default">
+    		<div class="row">
+    			<div class="col-xs-5">
+                        <h4>Welcome To {{title}} App</h4>
+                </div>
+                <div class="col-xs-7">
+                </div>
+            </div>  
+            <div class="row">  
+            	<div class="col-xs-8">
+            	</div>	
+                <div class="col-xs-4">
+                        <ul class="nav navbar-nav navbar-right">
+                        	<li class="nav-title"><a routerLink="/" routerLinkActive="active">Home &nbsp; &nbsp; &nbsp;| </a></li>
+                        	<li class="nav-title"><a routerLink="/about" routerLinkActive="active">About</a></li>
+                        </ul>	
+                </div>
+            </div>    
+        </div>     
+		<div class="panel-body body-height">
+		  		<router-outlet></router-outlet>
+		</div>	
+		<div class="panel-footer text-right">
+   			 <app-footer></app-footer> 
+		</div>		 
+	</div>	 
 </div>
-<!--<div class="footer">&copy; {{footer | date: 'MMMM d, yyyy' }}</div> -->
+
 
 
