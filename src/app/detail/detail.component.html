@@ -1,7 +1,10 @@
-<div>
-  <label>Product ID: </label>{{details.id}}<br/>
-  <label>Product Name: </label>{{details.name}}<br/>
-  <label>Manufacturer: </label>{{details.mfg}}<br/>
-  <label>Quantity: </label>{{details.qty}}<br/>
-  <label>Pack Size: </label>{{details.pkg}}<br/>
+<div class="detail-container">
+	<h4>{{details.name}}</h4>
+	<ul class="list-group">
+ 		<li class="list-group-item"><label>Product ID: </label> {{details.id}} </li>
+ 		<li class="list-group-item"><label>Product Name: </label> {{details.name}} </li>
+ 		<li class="list-group-item"> <label>Manufacturer: </label> {{details.mfg}} </li>
+ 		<li class="list-group-item"><label>Quantity: </label> {{details.qty}} </li>
+ 		<li class="list-group-item"><label>Pack Size: </label> {{details.pkg}} </li>
+	</ul> 
 </div>
