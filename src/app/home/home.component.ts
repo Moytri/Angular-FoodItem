@@ -14,8 +14,6 @@ export class HomeComponent  {
 	constructor() {
 		if(sessionStorage.getItem("food")) {
 			this.someFoodItems = JSON.parse(sessionStorage.getItem("food"));
-
-    		console.log(this.someFoodItems);
 		}
 	}
 
