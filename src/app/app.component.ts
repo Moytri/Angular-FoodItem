@@ -27,8 +27,7 @@ export class AppComponent {
     }
 
     this.myFoodItems = JSON.parse(sessionStorage.getItem("food"));
-    
-    //console.log(this.FOODITEMS[0].name);
+
   }  
 
 
