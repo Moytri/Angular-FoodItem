@@ -2,7 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
-# Project-Screenshots
+## Project-Screenshots
+
 A compilation of screenshots of running application I've created
 ![](https://github.com/Moytri/Angular-FoodItem/blob/master/images/food1.png)
 ![](https://github.com/Moytri/Angular-FoodItem/blob/master/images/food2.png)
