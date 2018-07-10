@@ -4,9 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Project-Screenshots
 A compilation of screenshots of running application I've created
-
-## Image Filters
 ![](https://github.com/Moytri/Angular-FoodItem/blob/master/images/food1.png)
+![](https://github.com/Moytri/Angular-FoodItem/blob/master/images/food2.png)
+![](https://github.com/Moytri/Angular-FoodItem/blob/master/images/food3.png)
 
 ## Development server
 
