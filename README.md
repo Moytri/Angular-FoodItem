@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
+# Project-Screenshots
+A compilation of screenshots of running application I've created
+
+## Image Filters
+![](https://github.com/Moytri/Angular-FoodItem/blob/master/images/food1.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
